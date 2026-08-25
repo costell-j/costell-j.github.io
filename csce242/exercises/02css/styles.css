@@ -1,0 +1,31 @@
+/* Structural */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(images/tree.png);
+    background-size:auto;
+}
+#content {
+    display:block;
+    background-color: rgba(160, 188, 213, 0.7);
+    width:70%;
+    margin:auto;
+    border-radius: 2rem;
+    border: 3px solid rgb(1, 1, 160);
+    box-shadow: 10px 15px 10px 0px rgba(0, 0, 0, 10);
+}
+header, main, footer {
+    padding: 5px;
+}
+
+header, footer {
+    background-color: rgba(6, 45, 13, 0.443);
+    color:rgb(203, 219, 233);
+}
+
+/* Navigation */
+
+
+/* Typography */
+h1 {
+    color: rgb(52, 34, 0);
+}
