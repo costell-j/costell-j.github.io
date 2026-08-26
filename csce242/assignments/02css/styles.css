@@ -53,7 +53,17 @@ footer {
     padding-left: 5px;
 }
 /*Navigation*/
-
+#homeButton {
+    background-color: #4E5925;
+    width:60px;
+    height: 35px;
+    padding: 7px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+}
 
 /*Typography*/
 p {
@@ -68,16 +78,4 @@ h2 {
 a {
     text-decoration: none;
     color: #261C14;
-}
-
-#homeButton {
-    background-color: #4E5925;
-    width:60px;
-    height: 35px;
-    padding: 7px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin:0px;
 }
