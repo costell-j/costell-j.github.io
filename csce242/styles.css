@@ -1,0 +1,13 @@
+/*Structural*/
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Navigation*/
+
+
+/*Typography*/
+a {
+    text-decoration: none;
+    color:black;
+}
