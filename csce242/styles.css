@@ -1,13 +1,34 @@
 /*Structural*/
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #646F58;
+    color:#504B3A;
 }
-
+#main-div {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin:0;
+}
+#content {
+    flex: 1;
+}
+header, .container2, footer {
+    background-color: #7D8570;
+}
+.container1 {
+    background-color: #AFBE8F;
+}
+header, .container1, .container2, footer {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
 /*Navigation*/
 
 
 /*Typography*/
 a {
     text-decoration: none;
-    color:black;
+    color:#DDE392;
 }

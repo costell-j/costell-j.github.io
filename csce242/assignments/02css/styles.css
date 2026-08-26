@@ -5,7 +5,7 @@ body {
     background-size: contain;
     color: #261C14;
     padding:0px;
-
+    align-content: center;
 }
 #main-div {
     background-color: rgba(88, 115, 31, 0.7);
@@ -13,7 +13,14 @@ body {
     border-color: #4E5925;
     border-width: 5px;
     border-style: solid;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin:0;
 
+}
+main {
+    flex: 1;
 }
 table {
     border-collapse: collapse;
@@ -35,12 +42,12 @@ header {
 }
 img {
     border-radius: 15px;
-    border: 3px solid;
+    border: 5px solid;
+    padding: 3px;
 }
 
 .container {
-    padding: 0px;
-    margin:10px;
+    margin:15px;
 }
 footer {
     padding-left: 5px;
@@ -51,6 +58,12 @@ footer {
 /*Typography*/
 p {
     color:#e3dfdf;
+    margin:5px;
+    margin-bottom: 10px;
+}
+h2 {
+    margin-top: 10px;
+    margin:5px;
 }
 a {
     text-decoration: none;
@@ -66,4 +79,5 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin:0px;
 }
