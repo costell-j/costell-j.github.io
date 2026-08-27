@@ -1,0 +1,29 @@
+/* Structural */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main-header {
+    background-color: aliceblue;
+}
+
+
+/* Navigation */
+#main-nav ul {
+    padding-left:0;
+}
+
+#main-nav li {
+    list-style: none;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color:black;
+}
+
+/* Typography */
+#main-header h1 {
+    text-align: center;
+}
