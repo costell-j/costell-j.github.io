@@ -5,11 +5,11 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div>
+        <div id="content">
             <header id="main-header">
                 <h1>Flexbox Stuff</h1>
                 <nav id="main-nav">
-                    <ul>
+                    <ul class="column">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Staff</a></li>
@@ -18,64 +18,66 @@
                 </nav>
             </header>
             <main id="main-content">
-                <aside id="sidebar">
-                    <h2>Sidebar</h2>
-                    <ul>
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                        <li><a href="#">Link 4</a></li>
-                    </ul>
-                </aside>
-                <div id="title-container">
-                    <div class="title">
-                        <div class="title-text">
-                            <h3>Title 1</h3>
+                <div id="side-and-titles" class="column">
+                    <aside id="sidebar" class="one">
+                        <h2>Sidebar</h2>
+                        <ul>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                            <li><a href="#">Link 4</a></li>
+                        </ul>
+                    </aside>
+                    <div id="title-container" class="column" >
+                        <div class="title">
+                            <div class="title-text">
+                                <h3>Title 1</h3>
+                            </div>
+                            <div class="image-container">
+                                <img src="https://dummyimage.com/500x400/7D8570/000000">
+                            </div>
                         </div>
-                        <div class="image-container">
-                            <img src="images/">
+                        <div class="title">
+                            <div class="title-text">
+                                <h3>Title 2</h3>
+                            </div>
+                            <div class="image-container">
+                                <img src="https://dummyimage.com/500x400/7D8570/000000">
+                            </div>
                         </div>
-                    </div>
-                    <div class="title">
-                        <div class="title-text">
-                            <h3>Title 2</h3>
-                        </div>
-                        <div class="image-container">
-                            <img src="images/">
-                        </div>
-                    </div>
-                    <div class="title">
-                        <div class="title-text">
-                            <h3>Title 3</h3>
-                        </div>
-                        <div class="image-container">
-                            <img src="images/">
+                        <div class="title">
+                            <div class="title-text">
+                                <h3>Title 3</h3>
+                            </div>
+                            <div class="image-container">
+                                <img src="https://dummyimage.com/500x400/7D8570/000000">
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div id="idea-container">
                     <div class="idea">
                         <div class="image-container">
-                            <img src="images/">
+                            <img src="https://dummyimage.com/300x300/7D8570/000000">
                         </div>
-                        <div class="id-text">
+                        <div class="idea-text">
                             <h3> Idea 1</h3>
-                            <p>Stuff</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum fermentum purus, ac efficitur velit. Proin pretium augue vel metus consequat finibus. Donec ac enim vel nisi venenatis dignissim. Phasellus ultrices finibus massa, quis sagittis neque consectetur ac.</p>
                         </div>
                         <div class="image-container">
-                            <img src="images/">
+                            <img src="https://dummyimage.com/300x300/7D8570/000000">
                         </div>
                     </div>
                     <div class="idea">
                         <div class="image-container">
-                            <img src="images/">
+                            <img src="https://dummyimage.com/300x300/7D8570/000000">
                         </div>
-                        <div class="id-text">
+                        <div class="idea-text">
                             <h3> Idea 2</h3>
-                            <p>Stuff</p>
+                            <p>Donec finibus eros id pulvinar venenatis. Nunc fringilla eros non sagittis facilisis. Pellentesque interdum congue cursus. Nullam et faucibus enim, nec dictum lectus. Sed pellentesque aliquam augue, ut porta eros dictum sed.</p>
                         </div>
                         <div class="image-container">
-                            <img src="images/">
+                            <img src="https://dummyimage.com/300x300/7D8570/000000">
                         </div>
                     </div>
                 </div>

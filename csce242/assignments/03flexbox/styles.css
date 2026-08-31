@@ -1,29 +1,185 @@
 /* Structural */
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#main-header {
-    background-color: aliceblue;
+    background-color: #DDE392;
 }
 
+#content {
+    width: 80%;
+    margin: auto;
+    background-color: #AFBE8F;
+}
+
+#main-header {
+    background-color: #DDE392;
+}
+
+#sidebar {
+    background-color: #646F58;
+    margin: 10px;
+    align-items: center;
+}
+
+.title-text {
+    background-color: #504B3A;
+    color: white;
+}
+
+.idea-text {
+    height: 300px;
+    overflow: auto;
+    align-content: center;
+    color:white;
+}
+
+.idea-text p, .idea-text h3 {
+    margin: 10px;
+}
+
+.title-text {
+    width: 100%;
+    height: 50px;
+    align-content: center;
+}
+
+#title-container {
+    width: fit-content;
+    margin: auto;
+    background-color: #AFBE8F;
+}
+
+#idea-container {
+    margin: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.idea {
+    margin: 10px;
+    background-color: #504B3A;
+}
+
+#main-footer {
+    padding: 5px;
+    padding-left: 10px;
+    background-color: #646F58;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
 
 /* Navigation */
+
 #main-nav ul {
-    padding-left:0;
+    padding-left: 0;
 }
 
 #main-nav li {
+    background-color: #646F58;
+}
+
+#main-nav li, #sidebar li {
     list-style: none;
     padding: 5px;
-    background-color: antiquewhite;
+    border: 1px solid white;
+    text-align: center;
 }
 
-#main-nav a {
-    text-decoration: none;
-    color:black;
+#sidebar ul {
+    padding-left: 0;
 }
+
 
 /* Typography */
-#main-header h1 {
+
+#main-header h1, .title-text, #sidebar {
     text-align: center;
+    margin: auto;
+}
+
+#main-header h1 {
+    color: #504B3A;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#sidebar h2 {
+    color: #504B3A;
+}
+
+
+/* Responsive Design */
+
+@media(min-width: 1000px) {
+
+    .column {
+        display: flex;
+    }
+
+    .title {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .idea {
+        display: flex;
+    }
+
+    .idea-text {
+        flex: 1;
+    }
+
+    #title-container {
+        flex: 3;
+    }
+
+    #idea-container {
+        width: 100%;
+    }
+    .image-container {
+        width: fit-content;
+    }
+
+    #main-nav li {
+        flex: 1;
+        border: 0;
+    }
+
+    #sidebar, .title, .idea {
+        margin: 5px;
+    }
+
+    .one {
+        flex: 1;
+    }
+
+    .two {
+        flex: 2;
+    }
+
+    .three {
+        flex: 3;
+    }
+
+    .four {
+        flex: 4;
+    }
+
+    .five {
+        flex: 5;
+    }
+
+    .six {
+        flex: 6;
+    }
 }
