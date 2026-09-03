@@ -1,10 +1,183 @@
 /* Structural */
+#logo-and-title h1 {
+    
+}
 
+#main-nav {
+    width:100%;
+
+}
+
+#main-nav div {
+    margin:10px;
+}
+
+#main-header, #main-header a {
+    background-color: black;
+    color:white;
+}
+
+#bottom-footer {
+    display:flex;
+}
+
+#edu-div, #research-div, #main-nav, #main-nav a, 
+#main-footer, #main-footer a, #cent-and-inst-div {
+    background-color: rgb(117,0,9);
+    color:white;
+}
+
+#main-nav, #top-nav {
+    display:none;
+}
+
+.top-nav-btn {
+    margin: 5px;
+}
+
+#main-header {
+    display: flex;
+}
+
+#search {
+    margin:10px;
+    margin-left: auto;
+}
+#stay-conn {
+    background-color: rgb(237, 237, 237);
+    width: 100%;
+    padding:5px;
+}
+
+#coll-links {
+    border-top: 1px solid white;
+    
+}
+
+#main-footer {
+    padding: 10px;
+
+}
+
+.blck-btn {
+    border: 2px solid white;
+    background-color: black;
+    width: fit-content;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right:30px;
+    color:white;
+}
+
+#edu-div, #research-div, #cent-and-inst-div {
+    padding:15px;
+    width: 45%;
+}
+
+#socials {
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+.red-btn {
+    background-color: rgb(117,0,9);
+    color:white;
+    width: fit-content;
+    padding: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid white;
+}
+
+.buttons {
+    display: flex;
+}
+
+#stay-conn {
+    display: grid;
+    place-items: center;
+}
+
+#coll-and-schools, #offices-and-divs, #tools {
+    margin: 10px;
+}
 
 /* Navigation */
 
 
 /* Typography */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.text-box p1 {
+    color:rgb(55, 56, 63);
+}
+
+#content-div h2 {
+    color:rgb(20 21 26);
+}
+
 
 
 /* Responsive Design */
+@media(min-width:1000px) {
+    .column {
+        display: flex;
+    }
+
+    .content-div {
+        display: flex;
+    }
+
+    #main-nav {
+        justify-content: flex-end;
+    }
+
+    #main-nav, #top-nav {
+        display: flex;
+    }
+
+    #logo-and-title {
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    #search {
+        display:none;
+    }
+
+    #main-header {
+        display: block;
+    }
+
+    #foot-header {
+        justify-content: space-between;
+    }
+
+    #foot-links {
+        display: flex;
+    }
+
+    #coll-and-schools {
+        flex:3;
+    }
+
+    #offices-and-divs {
+        flex:2;
+    }
+
+    #tools {
+        flex:1;
+    }
+
+    .coll-sub-div {
+        flex: 1;
+    }
+}

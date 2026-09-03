@@ -6,40 +6,62 @@
     </head>
     <body>
         <header id="main-header">
-            <nav id="top-nav">
-                <a href="#"><p>CALENDAR</p></a>
-                <a href="#"><p>MAP</p></a>
-                <a href="#"><p>DIRECTORY</p></a>
-                <a href="#"><p>APPLY</p></a>
-                <a href="#"><p>GIVE</p></a>
-                <a href="#"><p>GATEWAY</p></a>
+            <nav id="top-nav" class="column">
+                <div class="top-nav-btn">
+                    <a href="#"><p>CALENDAR</p></a>
+                </div>
+                <div class="top-nav-btn">
+                    <a href="#"><p>MAP</p></a>
+                </div>
+                <div class="top-nav-btn">
+                    <a href="#"><p>DIRECTORY</p></a>
+                </div>
+                <div class="top-nav-btn">
+                    <a href="#"><p>APPLY</p></a>
+                </div>
+                <div class="top-nav-btn">
+                    <a href="#"><p>GIVE</p></a>
+                </div>
+                <div class="top-nav-btn">
+                    <a href="#"><p>GATEWAY</p></a>
+                </div>
             </nav>
-            <img src="" alt="logo">
-            <h1>Floyd School of Medicine</h1>
-            <nav id="main-nav">
+            <div id="logo-and-title" class="column">
+                <img src="" alt="logo">
+                <h1>Floyd School of Medicine</h1>
+            </div>
+            <div id="search">
                 <a href="#">
-                    <div>
+                    <img src="" alt="search" class="icon">
+                </a>
+                <a href="#">
+                    <img src="" alt="hamburger" class="icon">
+                </a>
+            </div>
+            <nav id="main-nav" class="column">
+                <a href="#">
+                    <div class="btn">
                         <h3>EDUCATION</h3>
                     </div>
                 </a>
                 <a href="#">
-                    <div>
+                    <div class="btn">
                         <h3>RESEARCH</h3>
                     </div>
                 </a>
                 <a href="#">
-                    <div>
+                    <div class="btn">
                         <h3>CENTERS AND INSTITUTES</h3>
                     </div>
                 </a>
                 <a href="#">
-                    <div>
+                    <div class="btn">
                         <h3>ABOUT</h3>
                     </div>
                 </a>
-                <a href="#">
+                <a href="#" class="icon">
                     <div>
-                        
+                        <img src="" alt="search">
                     </div>
                 </a>
             </nav>
@@ -57,9 +79,11 @@
             <div id="edu-div">
                 <h1>Education</h1>
                 <p>Hands-on learning, exceptional clinical partners, innovative curriculum and cutting-edge technology prepare our learners to be skilled and compassionate professionals in communities near and far.</p>
-                <div class="blck-btn">
-                    <h4>OUR PROGRAMS</h4>
-                </div>
+                <a href="#">
+                    <div class="blck-btn">
+                        <h4>OUR PROGRAMS</h4>
+                    </div>
+                </a>
             </div>
             <div class="content-div">
                 <img src="" alt="person smiling">
@@ -74,9 +98,11 @@
             <div id="research-div">
                 <h1>Research</h1>
                 <p>Access to the latest cutting-edge technologies, support from our University and extensive opportunities to collaborate allow our research team to impact our state and beyond.</p>
-                <div class="blck-btn">
-                    <h4>EXPLORE YOUR OPPORTUNITIES</h4>
-                </div>
+                <a href="#">
+                    <div class="blck-btn">
+                        <h4>EXPLORE YOUR OPPORTUNITIES</h4>
+                    </div>
+                </a>
             </div>
             <div class="content-div">
                 <a href="#">
@@ -107,11 +133,13 @@
             <div id="cent-and-inst-div">
                 <h1>Centers and Institutes</h1>
                 <p>Our centers and institutes are just one way we're working to advance medical education and improve patient care in South Carolina.</p>
-                <div class="blck-btn">
-                    <h4>BROWSE OUR OPTIONS</h4>
-                </div>
+                <a href="#">
+                    <div class="blck-btn">
+                        <h4>BROWSE OUR OPTIONS</h4>
+                    </div>
+                </a>
             </div>
-            <div class="stay-conn">
+            <div id="stay-conn">
                 <h1>Stay Connected</h1>
                 <p>Discover more ways to get involved with out school</p>
                 <div class="buttons">
@@ -131,10 +159,10 @@
                         </div>
                     </a>
                 </div>
-                <footer id="stay-conn-footer">
+                <footer id="stay-conn-footer" class="column">
                     <div class="box">
                         <h4>Floyd School of Medicine</h4>
-                        <div id="socials">
+                        <div id="socials" class="column">
                             <a href="#">
                                 <div class="blck-btn">
                                     <h5>MY SCHOOL OF MEDICINE</h5>
@@ -187,7 +215,7 @@
             </div>
         </main>
         <footer id="main-footer">
-            <header id="foot-header">
+            <header id="foot-header" class="column">
                 <img src="" alt="usc logo">
                 <div class="socials">
                     <a href="#">
@@ -201,149 +229,151 @@
                     </a>
                 </div>
             </header>
-            <div id="coll-and-schools">
-                <h5>COLLEGES & SCHOOLS</h5>
-                <div class="coll-sub-div">
-                    <ul>
-                        <li>
-                            <a href="#">
+            <div id="foot-links" class="column">
+                <div id="coll-and-schools">
+                    <h3>COLLEGES & SCHOOLS</h3>
+                    <div id="coll-links" class="column">
+                        <div class="coll-sub-div">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Arts and Science
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Business
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Education
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Engineering and Computing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        The Graduate School
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Hospitality, Retail, and Sport Management
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="coll-sub-div">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Innformation and Communications
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
 
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
 
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
 
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
 
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
 
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="coll-sub-div">
+                            <ul>
+                                <li>
+                                    <a href="#">
 
-                            </a>
-                        </li>
-                    </ul>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="coll-sub-div">
-                    <li>
-                        <a href="#">
+                <div id="offices-and-divs">
+                    <h3>OFFICES & DIVISIONS</h3>
+                    <div id="off-links" class="column">
+                        <div class="off-sub-div">
 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
+                        </div>
+                        <div class="off-sub-div">
+                            
+                        </div>
+                    </div>
                 </div>
-                <div class="coll-sub-div">
-                    <li>
-                        <a href="#">
+                <div id="tools">
+                    <h3>TOOLS</h3>
+                    <div id="tool-links">
+                        <ul>
+                            <li>
+                                <a href="#">
 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
 
-                        </a>
-                    </li>
-                </div>
-            </div>
-            <div id="offices-and-divs">
-                <h5>OFFICES & DIVISIONS</h5>
-                <div class="off-sub-div">
-
-                </div>
-                <div class="off-sub-div">
-                    
-                </div>
-            </div>
-            <div id="tools">
-                <h5>TOOLS</h5>
-                <div id="tool-links">
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </footer>
