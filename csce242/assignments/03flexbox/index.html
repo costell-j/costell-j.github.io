@@ -1,90 +1,482 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Flexbox</title>
         <link rel="stylesheet" href="styles.css">
+        <title>Floyd School of Medicine</title>
     </head>
     <body>
-        <div id="content">
-            <header id="main-header">
-                <h1>Flexbox Stuff</h1>
-                <nav id="main-nav">
-                    <ul class="column">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Staff</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </nav>
+        <header id="main-header">
+            <nav id="top-nav" class="column">
+                <div class="top-nav-btn">
+                    <a href="#"><p>CALENDAR</p></a>
+                </div>
+                <div class="top-nav-btn">
+                    <a href="#"><p>MAP</p></a>
+                </div>
+                <div class="top-nav-btn">
+                    <a href="#"><p>DIRECTORY</p></a>
+                </div>
+                <div class="top-nav-btn">
+                    <a href="#"><p>APPLY</p></a>
+                </div>
+                <div class="top-nav-btn">
+                    <a href="#"><p>GIVE</p></a>
+                </div>
+                <div class="top-nav-btn">
+                    <a href="#"><p>GATEWAY</p></a>
+                </div>
+            </nav>
+            <div id="logo-and-title" class="column">
+                <a href="#">
+                    <img src="https://placehold.co/200x75" alt="logo">
+                </a>
+                <h1>Floyd School of Medicine</h1>
+            </div>
+            <div id="search">
+                <a href="#">
+                    <img src="https://placehold.co/50x50" alt="search" class="icon">
+                </a>
+                <a href="#">
+                    <img src="https://placehold.co/50x50" alt="hamburger" class="icon">
+                </a>
+            </div>
+            <nav id="main-nav" class="column">
+                <a href="#">
+                    <div class="btn">
+                        <h3>EDUCATION</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="btn">
+                        <h3>RESEARCH</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="btn">
+                        <h3>CENTERS AND INSTITUTES</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="btn">
+                        <h3>ABOUT</h3>
+                    </div>
+                </a>
+                <a href="#" class="icon">
+                    <div>
+                        <img src="https://placehold.co/50x50" alt="search" class ="icon">
+                    </div>
+                </a>
+            </nav>
+        </header>
+        <main id="content">
+            <div class="img-div">
+                <img src="https://placehold.co/1600x800" alt="stuff">
+            </div>
+            <div id="text-content-div">
+                <h2>Our school is looking toward the future with the goal of supporting the health needs of South Carolina and beyond through exemplary biomedical education, transformative research and compassionate care for all.</h2>
+            </div>
+            <div class="img-div">
+                <img src="https://placehold.co/1600x800" alt="dreamer by laufey">
+            </div>
+            <div id="edu-div" class="hero-box">
+                <h1>Education</h1>
+                <p>Hands-on learning, exceptional clinical partners, innovative curriculum and cutting-edge technology prepare our learners to be skilled and compassionate professionals in communities near and far.</p>
+                <a href="#">
+                    <div class="blck-btn">
+                        <h4>OUR PROGRAMS</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="content-div">
+                <img src="https://placehold.co/300x300" alt="person smiling" id="smiling-pic">
+                <div id="text-box">
+                    <h2>The School of Medicine is a home of mentors, an undiscovered gem, a diamond in the rough, a small program that has allowed me to fly as high as I desire to. The School of Medicine is unlimited opportunities, just waiting for someone to work hard and take them. The School of Medicine is opportunity.</h2>
+                    <p>Sarah Hall Kiriluk, MD, Class of 2025 MD Program Graduate</p>
+                </div>
+            </div>
+            <div class="img-div">
+                <img src="https://placehold.co/1600x800" alt="person with thingy">
+            </div>
+            <div id="research-div" class="hero-box">
+                <h1>Research</h1>
+                <p>Access to the latest cutting-edge technologies, support from our University and extensive opportunities to collaborate allow our research team to impact our state and beyond.</p>
+                <a href="#">
+                    <div class="blck-btn">
+                        <h4>EXPLORE YOUR OPPORTUNITIES</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="content-div">
+                <a href="#">
+                    <div class="box">
+                        <img src="https://placehold.co/350x350" alt="building">
+                        <div class="text">
+                            <h3>Tour the new Health Sciences campus</h3>
+                            <p>Learn more about the Health Sciences Campus, our new home in the BullStreet District.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="box">
+                        <img src="https://placehold.co/350x350" alt="old guy talking">
+                        <div class="text">
+                            <h3>News</h3>
+                            <p>The latest updates from the Floyd School of Medicine.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="box">
+                        <img src="https://placehold.co/350x350" alt="lady using her hands">
+                        <div class="text">
+                            <h3>Directory</h3>
+                            <p>Meet the falaculty and staff who power the Floyd School of Medicine.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="img-div">
+                <img src="https://placehold.co/1600x800" alt="stuff by lil baby">
+            </div>
+            <div id="cent-and-inst-div" class="hero-box">
+                <h1>Centers and Institutes</h1>
+                <p>Our centers and institutes are just one way we're working to advance medical education and improve patient care in South Carolina.</p>
+                <a href="#">
+                    <div class="blck-btn">
+                        <h4>BROWSE OUR OPTIONS</h4>
+                    </div>
+                </a>
+            </div>
+            <div id="stay-conn">
+                <header id="stay-conn-header">
+                    <h1>Stay Connected</h1>
+                    <p>Discover more ways to get involved with out school</p>
+                </header>
+                <div class="buttons">
+                    <a href="#">
+                        <div class="red-btn">
+                            <h4>GIVE TO MEDICINE</h4>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="red-btn">
+                            <h4>ALUMNI</h4>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="red-btn">
+                            <h4>STUDENT RESOURCES</h4>
+                        </div>
+                    </a>
+                </div>
+                <footer id="stay-conn-footer">
+                    <div class="box">
+                        <h2>Floyd School of Medicine</h2>
+                        <div id="socials">
+                            <a href="#">
+                                <div class="blck-btn">
+                                    <h5>MY SCHOOL OF MEDICINE</h5>
+                                </div>
+                            </a>
+                            <div class="icons">
+                                <a href="#">
+                                    <img src="https://placehold.co/50x50" alt="instagram logo" class="icon">
+                                </a>
+                                <a href="#">
+                                    <img src="https://placehold.co/50x50" alt="TWITTER logo" class="icon">
+                                </a>
+                                <a href="#">
+                                    <img src="https://placehold.co/50x50" alt="linkedin logo" class="icon">
+                                </a>
+                                <a href="#">
+                                    <img src="https://placehold.co/50x50" alt="facebook logo" class="icon">
+                                </a>
+                                <a href="#">
+                                    <img src="https://placehold.co/50x50" alt="youtube logo" class="icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="stay-conn-links" class="column">
+                        <div class="box">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Give</a></li>
+                                <li><a href="#">Calendar</a></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <ul>
+                                <li><a href="#">Directory</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">History</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <a href="#"><p>Floyd School of Medicine Medical Education Campus</p></a>
+                        <p>6311 Garners Ferry Road</p>
+                        <p>Columbia, SC 29209</p>
+                    </div>
+                </footer>
+            </div>
+        </main>
+        <footer id="main-footer">
+            <header id="foot-header" class="column">
+                <img src="https://placehold.co/250x75" alt="usc logo">
+                <div class="socials">
+                    <a href="#">
+                        <img src="https://placehold.co/50x50" alt="facebook logo" class="icon">
+                    </a>
+                    <a href="#">
+                        <img src="https://placehold.co/50x50" alt="instagram logo" class="icon">
+                    </a>
+                    <a href="#">
+                        <img src="https://placehold.co/50x50" alt="twitter logo" class="icon">
+                    </a>
+                </div>
             </header>
-            <main id="main-content">
-                <div id="side-and-titles" class="column">
-                    <aside id="sidebar" class="one">
-                        <h2>Sidebar</h2>
+            <div id="foot-links" class="column">
+                <div id="coll-and-schools">
+                    <h3>COLLEGES & SCHOOLS</h3>
+                    <div id="coll-links" class="column">
+                        <div class="coll-sub-div">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Arts and Science
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Business
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Education
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Engineering and Computing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        The Graduate School
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Hospitality, Retail, and Sport Management
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="coll-sub-div">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Information and Communications
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Law
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Medicine
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Medicine (Greenville)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Music
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Nursing
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="coll-sub-div">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Pharmacy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Public Health
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Social Work
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        South Carolina Honors College
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Palmetto College
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="offices-and-divs">
+                    <h3>OFFICES & DIVISIONS</h3>
+                    <div id="off-links" class="column">
+                        <div class="off-sub-div">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Employment
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Undergraduate Admissions
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Financial Aid and Scholarships
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Bursar (fee payment)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Veterans and Military Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Disability Resources
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="off-sub-div">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Access and Opportunity
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Human Resources
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Law Enforcement and Safety
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        University Libraries
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        All Offices and Divisions
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="tools">
+                    <h3>TOOLS</h3>
+                    <div id="tool-links">
                         <ul>
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                            <li><a href="#">Link 4</a></li>
+                            <li>
+                                <a href="#">
+                                    Carolina Alert
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Campus Email
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    my.sc.edu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Blackboard
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    PeopleSoft Finance
+                                </a>
+                            </li>
                         </ul>
-                    </aside>
-                    <div id="title-container" class="column" >
-                        <div class="title">
-                            <div class="title-text">
-                                <h3>Title 1</h3>
-                            </div>
-                            <div class="image-container">
-                                <img src="https://dummyimage.com/500x400/7D8570/000000">
-                            </div>
-                        </div>
-                        <div class="title">
-                            <div class="title-text">
-                                <h3>Title 2</h3>
-                            </div>
-                            <div class="image-container">
-                                <img src="https://dummyimage.com/500x400/7D8570/000000">
-                            </div>
-                        </div>
-                        <div class="title">
-                            <div class="title-text">
-                                <h3>Title 3</h3>
-                            </div>
-                            <div class="image-container">
-                                <img src="https://dummyimage.com/500x400/7D8570/000000">
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <div id="idea-container">
-                    <div class="idea">
-                        <div class="image-container">
-                            <img src="https://dummyimage.com/300x300/7D8570/000000">
-                        </div>
-                        <div class="idea-text">
-                            <h3> Idea 1</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum fermentum purus, ac efficitur velit. Proin pretium augue vel metus consequat finibus. Donec ac enim vel nisi venenatis dignissim. Phasellus ultrices finibus massa, quis sagittis neque consectetur ac.</p>
-                        </div>
-                        <div class="image-container">
-                            <img src="https://dummyimage.com/300x300/7D8570/000000">
-                        </div>
-                    </div>
-                    <div class="idea">
-                        <div class="image-container">
-                            <img src="https://dummyimage.com/300x300/7D8570/000000">
-                        </div>
-                        <div class="idea-text">
-                            <h3> Idea 2</h3>
-                            <p>Donec finibus eros id pulvinar venenatis. Nunc fringilla eros non sagittis facilisis. Pellentesque interdum congue cursus. Nullam et faucibus enim, nec dictum lectus. Sed pellentesque aliquam augue, ut porta eros dictum sed.</p>
-                        </div>
-                        <div class="image-container">
-                            <img src="https://dummyimage.com/300x300/7D8570/000000">
-                        </div>
-                    </div>
-                </div>
-            </main>
-            <footer id="main-footer">
-                <p>&copy costell-j</p>
-            </footer>
-        </div>
+            </div>
+        </footer>
+        <footer id="bottom-footer">
+            <div class="footer-link">
+                <a href="#">
+                    <p>&copy University of South Carolina</p>
+                </a>
+            </div>
+            <div class="footer-link">
+                <a href="#">
+                    <p>Privacy</p>
+                </a>
+            </div>
+            <div class="footer-link">
+                <a href="#">
+                    <p>Student Consumer Information</p>
+                </a>
+            </div>
+            <div class="footer-link">
+                <a href="#">
+                    <p>Transparency Initiative</p>
+                </a>
+            </div>
+            <div class="footer-link">
+                <a href="#">
+                    <p>Civil Rights and Title IX</p>
+                </a>
+            </div>
+            <div class="footer-link">
+                <a href="#">
+                    <p>Digital Accessibility</p>
+                </a>
+            </div>
+            <div class="footer-link">
+                <a href="#">
+                    <p>Contact</p>
+                </a>
+            </div>
+        </footer>
     </body>
 </html>
