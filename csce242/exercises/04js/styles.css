@@ -172,6 +172,12 @@ h1, h2, h3 {
 
 }
 
+/* Hidden */
+
+.hidden {
+    display: none;
+}
+
 /* Responsive Design */
 
 /* 600 px or larger */
