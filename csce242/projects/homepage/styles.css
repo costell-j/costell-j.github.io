@@ -564,27 +564,6 @@ main h3 {
     line-height: 1.7;
 }
 
-.circle {
-    position: absolute;
-    top: -45px;
-    left: -45px;
-    width: 150px;
-    height: 150px;
-    border: 25px solid #147D7A15;
-    border-radius: 50%;
-}
-
-.pill {
-    position: absolute;
-    right: -45px;
-    bottom: -35px;
-    width: 150px;
-    height: 65px;
-    border-radius: 40px;
-    background: #147D7A15;
-    transform: rotate(-35deg);
-}
-
 /* Footer */
 footer {
     margin-top: 64px;
