@@ -84,7 +84,7 @@ a {
         width: 0;
     }
 
-    nav {
+    nav.hide-small {
         display: flex;
     }
     
