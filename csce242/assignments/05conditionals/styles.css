@@ -1,0 +1,103 @@
+/* Structural */
+
+body {
+    background-color: bisque;
+    color: coral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+header h3, h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+main {
+    width: 70%;
+}
+
+nav {
+    padding-left: 0;
+}
+
+#arrow {
+    display: inline-block;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid coral;
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+input {
+    margin: auto;
+    border: 1px solid coral;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.hide-small {
+    display:none;
+}
+
+/* Typography */
+
+footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:coral;
+}
+
+/* Responsive Design */
+
+@media (min-width: 1000px) {
+    #boxes {
+        flex-direction: row;
+    }
+
+    .content {
+        width: 0;
+    }
+
+    nav {
+        display: flex;
+    }
+    
+    ul {
+        flex-direction: row;
+    }
+
+    ul li:not(:last-child)::after {
+        content: "|";
+        margin: 10px;
+    }
+
+    #arrow {
+        display:none;
+    }
+}
