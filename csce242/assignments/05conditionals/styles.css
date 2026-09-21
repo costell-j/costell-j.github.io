@@ -76,10 +76,6 @@ a {
 /* Responsive Design */
 
 @media (min-width: 1000px) {
-    #boxes {
-        flex-direction: row;
-    }
-
     .content {
         width: 0;
     }
