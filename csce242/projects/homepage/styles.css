@@ -4,7 +4,9 @@
 /* Structural */
 :root {
     --darkblue: #12323D;
+    --darkerblue: #12323D12;
     --tealbtns: #147D7A;
+    --kindablue: #34515B;
     --tealhover: #0F6664;
     --heromint: #EDF8F6;
     --ctamint: #DFF3ED;
@@ -16,6 +18,8 @@
     --mutedtext: #668087;
     --borders: #DDE9EA;
     --footertext: #AEC6C9;
+    --whiteish: #F5FAF9;
+    --white: #FFFFFF;
 }
 
 * {
@@ -114,7 +118,7 @@ main h3 {
     padding: 12px;
     border: 1px solid var(--borders);
     border-radius: 8px;
-    background: #F5FAF9;
+    background: var(--whiteish);
 }
 
 /* Hero */
@@ -150,7 +154,7 @@ main h3 {
     padding: 8px;
     border: 1px solid var(--borders);
     border-radius: 12px;
-    background: white;
+    background: var(--white);
 }
 
 #search-icon {
@@ -175,7 +179,7 @@ main h3 {
     border: none;
     border-radius: 8px;
     background: var(--tealbtns);
-    color: white;
+    color: var(--white);
     font-family: inherit;
     font-size: 11px;
     font-weight: 800;
@@ -192,8 +196,8 @@ main h3 {
     padding: 20px;
     border: 1px solid var(--borders);
     border-radius: 18px;
-    background: white;
-    box-shadow: 0 15px 35px #12323D12;
+    background: var(--white);
+    box-shadow: 0 15px 35px var(--darkerblue);
 }
 
 #exp-head {
@@ -225,13 +229,14 @@ main h3 {
 }
 
 #topics {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 12px;
 }
 
 #topics div {
-    min-width: 0;
+    width: 48%;
     padding: 18px 12px;
     border-radius: 12px;
 }
@@ -274,7 +279,7 @@ main h3 {
     margin-top: 16px;
     padding: 14px 16px;
     border-radius: 10px;
-    background: #F5FAF9;
+    background: var(--whiteish);
 }
 
 #start-basic h3 {
@@ -314,8 +319,8 @@ main h3 {
 }
 
 .guide-container {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 18px;
 }
 
@@ -323,7 +328,7 @@ main h3 {
     padding: 24px;
     border: 1px solid var(--borders);
     border-radius: 14px;
-    background: white;
+    background: var(--white);
 }
 
 .logo-img {
@@ -358,7 +363,7 @@ main h3 {
     flex-direction: column;
     gap: 40px;
     padding: 64px 20px;
-    background: #F5FAF9;
+    background: var(--whiteish);
 }
 
 /* Featured Guide */
@@ -366,7 +371,7 @@ main h3 {
     overflow: hidden;
     border: 1px solid var(--borders);
     border-radius: 16px;
-    background: white;
+    background: var(--white);
 }
 
 .featured-card img {
@@ -484,7 +489,7 @@ main h3 {
     padding: 24px;
     border: 1px solid var(--borders);
     border-radius: 14px;
-    background: white;
+    background: var(--white);
 }
 
 #fourth-section .guide h4 {
@@ -550,7 +555,7 @@ main h3 {
     padding: 14px 24px;
     border-radius: 8px;
     background: var(--tealbtns);
-    color: white;
+    color: var(--white);
 }
 
 .btn p {
@@ -577,7 +582,7 @@ footer {
 }
 
 #foot-header .logo h1 {
-    color: white;
+    color: var(--white);
 }
 
 #foot-header p {
@@ -587,10 +592,15 @@ footer {
 }
 
 #foot-nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 40px;
+}
+
+#foot-nav div {
+    flex: 1;
+    min-width: 120px;
 }
 
 #foot-nav h5 {
@@ -615,13 +625,13 @@ footer {
 }
 
 #foot-nav a:hover {
-    color: white;
+    color: var(--white);
 }
 
 footer hr {
     margin-bottom: 24px;
     border: none;
-    border-top: 1px solid #34515B;
+    border-top: 1px solid var(--kindablue);
 }
 
 footer p {
@@ -702,11 +712,13 @@ footer p {
     }
 
     #second-sec .guide-container {
-        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-direction: row;
         gap: 20px;
     }
-
+    
     #second-sec .guide {
+        flex: 1;
         min-height: 245px;
     }
 
@@ -737,6 +749,13 @@ footer p {
         font-size: 42px;
     }
 
+    #third-sec img {
+        max-width: 85%;
+        max-height: auto;
+        border-radius: 10%;
+        margin:auto;
+    }
+
     /* Fourth Section */
     #fourth-section {
         padding: 95px 7% 0;
@@ -747,8 +766,13 @@ footer p {
     }
 
     #fourth-section .guide-container {
-        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        flex-direction: row;
         gap: 20px;
+    }
+    
+    #fourth-section .guide {
+        flex: 1;
     }
 
     .cta-container {
@@ -762,7 +786,7 @@ footer p {
 
     /* Footer */
     footer {
-        padding: 65px 7% 30px;
+        padding: 65px 30px;
     }
     #foot-nav {
         grid-template-columns: 1fr 1fr 1fr;
