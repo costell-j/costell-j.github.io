@@ -34,9 +34,6 @@ body {
     position:relative; 
 }
 
-#hero img {
-    display:block;
-}
 
 .hero-arrow {
     position:absolute;
