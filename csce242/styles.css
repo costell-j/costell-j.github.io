@@ -37,9 +37,14 @@ img {
     max-width: 100%;
 }
 
+.assignment {
+    min-width: 300px;
+}
+
 #assignments {
     display: flex;
     flex-direction: column;
+    overflow:scroll;
 }
 
 #projects {
