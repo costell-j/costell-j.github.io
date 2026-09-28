@@ -2,21 +2,23 @@
 <html>
     <head>
         <title>Pulse Health Resources</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../styles.css">
     </head>
     <body>
         <header id="main-header">
-            <div class="logo" href="#">
-                <img class="pulse-logo" src="images/pulse-logo.png" alt="pulse logo">
-                <h1>Pulse</h1>
-            </div> 
+            <a href="../homepage/index.html">
+                <div class="logo">
+                    <img class="pulse-logo" src="../images/pulse-logo.png" alt="pulse logo">
+                    <h1>Pulse</h1>
+                </div> 
+            </a>
             <nav id="header-nav" class="hide-small">
-                <a href="#">Medications</a>
-                <a href="#">Health Conditions</a>
-                <a href="#">Doctors & Providers</a>
-                <a href="#">Appointments & Care</a>
+                <a href="../medication/index.html">Medications</a>
+                <a href="../conditions/index.html">Health Conditions</a>
+                <a href="../doctors/index.html">Doctors & Providers</a>
+                <a href="../appointments/index.html">Appointments & Care</a>
                 <a href="#" class="active">Health Resources</a>
-                <a href="#">Guides</a>
+                <a href="../guides/index.html">Guides</a>
             </nav>
             <div class="search-container hide-small" id="nav-search"> 
                 <search>
@@ -30,17 +32,17 @@
         <main>
             <section id="first-sec" class="column">
                 <div class="content one hero-text">
-                    <h3>Mini head</h3>
-                    <h1>Title</h1>
-                    <p>Passage</p>
+                    <h3>Health Resources</h3>
+                    <h1>Your everyday health toolkit</h1>
+                    <p>Explore practival information that supports healthier routines, safer choices, and more confident conversations about care.</p>
                     <div class="search-container">
                         <search>
                             <form class="search-form">
-                                <img src="images/icon-search.png" id="search-icon">
+                                <img src="../images/icon-search.png" id="search-icon">
                                 <input type="search" class="search-input"
-                                placeholder="Search medications, conditions, guides..."
+                                placeholder="Search health resources and wellness topics"
                                 required>
-                                <button type="submit" class="search-btn">Explore Topics</button>
+                                <button type="submit" class="search-btn">Explore</button>
                             </form>
                         </search>
                     </div>
@@ -49,77 +51,84 @@
             <section id="second-sec">
                 <header id="second-sec-head">
                     <div>
-                        <h1>Title</h1>
-                        <p>Message</p>
+                        <h1>Resources for everyday care</h1>
+                        <p>Practical starting points for the topics that matter to you and your family.</p>
                     </div>
                 </header>
                 <div class="content guide-container">
-                    <div class="guide">
+                    <div class="guide lightteal">
                         <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                        <h3>Preventative care</h3>
+                        <p>Simple explanattions, usefule checklists, and trusted next steps.</p>
                     </div>
-                    <div class="guide">
+                    <div class="guide lightgold">
                         <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                        <h3>Vaccines</h3>
+                        <p>Simple explanations, useful checklists, and trusted next steps</p>
                     </div>
-                    <div class="guide">
+                    <div class="guide lightblue">
                         <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                        <h3>First aid</h3>
+                        <p>Simple explanations, useful checklists, and trusted next steps</p>
                     </div>
-                    <div class="guide">
+                    <div class="guide lightlavender">
                         <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                        <h3>Healthy habits</h3>
+                        <p>Simple explanations, useful checklists, and trusted next steps</p>
                     </div>
                 </div>
             </section>
             <section id="third-sec">
                 <header id="third-sec-header">
-                    <h1>Title</h1>
-                    <p>Message</p>
+                    <h1>Build a stronger health routine</h1>
+                    <p>Small steps are easier to take when you know why they matter</p>
                 </header>
                 <div class="content guide-container">
-                    <div class="guide">
-                        <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                    <div class="lightteal  guide ">
+                        <div class ="text">
+                            <h3>Know your numbers</h3>
+                            <p>A guide to common  screenings and health measurements</p>
+                        </div>
+                        <div class="link">
+                            <a>Explore resources -></a>
+                        </div>
                     </div>
-                    <div class="guide">
-                        <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                    <div class="guide lightgold">
+                        <div class ="text">
+                            <h3>Make room for prevention</h3>
+                            <p>Vaccinations, checkups, and questions to ask</p>
+                        </div>
+                        <div class="link">
+                            <a>Explore resources -></a>
+                        </div>
                     </div>
-                    <div class="guide">
-                        <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
-                    </div>
-                    <div class="guide">
-                        <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                    <div class="guide lightblue">
+                        <div class ="text">
+                            <h3>Plan for the unexpected</h3>
+                            <p>First-aid basics and when to call for help</p>
+                        </div>
+                        <div class="link">
+                            <a>Explore resources -></a>
+                        </div>
                     </div>
                 </div>
-                <div class="content">
+                <div class="content" id="third-sec-box">
                     <div class="text">
-                        <h1>Title</h1>
-                        <p>passage</p>
+                        <h1>Planning for care is a form of care.</h1>
+                        <p>Find practical tips for appointments, health questions, and everyday wellbeing.</p>
                     </div>
                     <div class="btn">
-                        <p>text</p>
+                        <p>Browse guides -></p>
                     </div>
                 </div>
             </section>
             <section id="fourth-section">
                 <div class="content cta-container">
                     <div id="cta">
-                        <h1>Title</h1>
-                        <p>Passage</p>>
+                        <h1>Keep helpful health informatino within reach.</h1>
+                        <p>Explore resources designed for the questions that come up in real life.</p>
                         <div class="btn">
-                            <p>Explore health topics</p>
+                            <p>Explore resources -></p>
                         </div>
                     </div>
                 </div>
@@ -127,27 +136,29 @@
         </main>
         <footer>
             <header id="foot-header">
-                <div class="logo" href="#">
-                    <img class="pulse-logo" src="images/pulse-logo.png" alt="pulse logo">
-                    <h1>Pulse</h1>
-                </div> 
+                <a href="../homepage/index.html">
+                    <div class="logo">
+                        <img class="pulse-logo" src="../images/pulse-logo.png" alt="pulse logo">
+                        <h1>Pulse</h1>
+                    </div> 
+                </a>
                 <p>Clear health information for everyday decisions</p>
             </header>
             <nav id="foot-nav">
                 <div id="explore">
                     <h5>Explore</h5>
                     <ul>
-                        <a href="#"><li>Medications</li></a>
-                        <a href="#"><li>Health Conditions</li></a>
-                        <a href="#"><li>Doctors & Providers</li></a>
+                        <a href="../medication/index.html"><li>Medications</li></a>
+                        <a href="../conditions/index.html"><li>Health Conditions</li></a>
+                        <a href="../doctors/index.html"><li>Doctors & Providers</li></a>
                     </ul>
                 </div>
                 <div id="learn">
                     <h5>Learn</h5>
                     <ul>
-                        <a href="#"><li>Health Resources</li></a>
-                        <a href="#"><li>Health Guides</li></a>
-                        <a href="#"><li>Appointments & Care</li></a>
+                        <a href="../resources/index.html"><li>Health Resources</li></a>
+                        <a href="../guides/index.html"><li>Health Guides</li></a>
+                        <a href="../appointments/index.html"><li>Appointments & Care</li></a>
                     </ul>
                 </div>
                 <div id="about">

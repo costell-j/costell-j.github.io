@@ -2,21 +2,23 @@
 <html>
     <head>
         <title>Pulse Doctors & Providers</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../styles.css">
     </head>
     <body>
         <header id="main-header">
-            <div class="logo" href="#">
-                <img class="pulse-logo" src="images/pulse-logo.png" alt="pulse logo">
-                <h1>Pulse</h1>
-            </div> 
+            <a href="../homepage/index.html">
+                <div class="logo">
+                    <img class="pulse-logo" src="../images/pulse-logo.png" alt="pulse logo">
+                    <h1>Pulse</h1>
+                </div> 
+            </a>
             <nav id="header-nav" class="hide-small">
-                <a href="#">Medications</a>
-                <a href="#">Health Conditions</a>
-                <a href="#" class="active">Doctors & Providers</a>
-                <a href="#">Appointments & Care</a>
-                <a href="#">Health Resources</a>
-                <a href="#">Guides</a>
+                <a href="../medication/index.html">Medications</a>
+                <a href="../conditions/index.html">Health Conditions</a>
+                <a href="../doctors/index.html"  class="active">Doctors & Providers</a>
+                <a href="../appointments/index.html">Appointments & Care</a>
+                <a href="../resources/index.html">Health Resources</a>
+                <a href="../guides/index.html">Guides</a>
             </nav>
             <div class="search-container hide-small" id="nav-search"> 
                 <search>
@@ -30,17 +32,17 @@
         <main>
             <section id="first-sec" class="column">
                 <div class="content one hero-text">
-                    <h3>Mini head</h3>
-                    <h1>Title</h1>
-                    <p>Passage</p>
+                    <h3>Doctors & Providers</h3>
+                    <h1>Find the right kind of care.</h1>
+                    <p>Learn what different healtthcare professionals do, the concernss they commonly help with, and what to expect before your first visit.</p>
                     <div class="search-container">
                         <search>
                             <form class="search-form">
-                                <img src="images/icon-search.png" id="search-icon">
+                                <img src="../images/icon-search.png" id="search-icon">
                                 <input type="search" class="search-input"
-                                placeholder="Search medications, conditions, guides..."
+                                placeholder="Search a specialty or health concern"
                                 required>
-                                <button type="submit" class="search-btn">Explore Topics</button>
+                                <button type="submit" class="search-btn">Explore</button>
                             </form>
                         </search>
                     </div>
@@ -49,77 +51,87 @@
             <section id="second-sec">
                 <header id="second-sec-head">
                     <div>
-                        <h1>Title</h1>
-                        <p>Message</p>
+                        <h1>Which provider can help?</h1>
+                        <p>Start with the health concern you want to understand better.</p>
                     </div>
                 </header>
                 <div class="content guide-container">
-                    <div class="guide">
+                    <div class="guide lightteal">
                         <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                        <h3>Primary care</h3>
+                        <p>What they treat, when to visit and how they can support your care.</p>
                     </div>
-                    <div class="guide">
+                    <div class="guide lightgold">
                         <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                        <h3>Heart specialist</h3>
+                        <p>What they treat, when to visit and how they can support your care.</p>
                     </div>
-                    <div class="guide">
+                    <div class="guide lightblue">
                         <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                        <h3>Mental health</h3>
+                        <p>What they treat, when to visit and how they can support your care.</p>
                     </div>
-                    <div class="guide">
+                    <div class="guide lightlavender">
                         <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                        <h3>Women's health</h3>
+                        <p>What they treat, when to visit and how they can support your care</p>
                     </div>
                 </div>
             </section>
             <section id="third-sec">
                 <header id="third-sec-header">
-                    <h1>Title</h1>
-                    <p>Message</p>
+                    <h1>Meet the care team</h1>
+                    <p>A quick introduction to the professionals you may meet along the way.</p>
                 </header>
                 <div class="content guide-container">
-                    <div class="guide">
-                        <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                    <div class="lightteal  guide ">
+                        <img src="">
+                        <div class ="text">
+                            <h3>Primary care provider</h3>
+                            <p>Your first step for routine care and ongoing health concerns</p>
+                        </div>
+                        <div class="link">
+                            <a>Learn about this role -></a>
+                        </div>
                     </div>
-                    <div class="guide">
-                        <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                    <div class="guide lightgold">
+                        <img src="">
+                        <div class ="text">
+                            <h3>Specialist</h3>
+                            <p>Focused expertise for a particular body system or condition</p>
+                        </div>
+                        <div class="link">
+                            <a>Learn about this role -></a>
+                        </div>
                     </div>
-                    <div class="guide">
-                        <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
-                    </div>
-                    <div class="guide">
-                        <img class="logo-img" src="">
-                        <h3>Title</h3>
-                        <p>Passage</p>
+                    <div class="guide lightblue">
+                        <img src="">
+                        <div class ="text">
+                            <h3>Pharmacist</h3>
+                            <p>Medication guidance, safety questions, and refill support</p>
+                        </div>
+                        <div class="link">
+                            <a>Learn about this role -></a>
+                        </div>
                     </div>
                 </div>
-                <div class="content">
+                <div class="content" id="third-sec-box">
                     <div class="text">
-                        <h1>Title</h1>
-                        <p>passage</p>
+                        <h1>Go into your appointment prepared.</h1>
+                        <p>Bring your questions, your medicatoin list, and a clear picture of what has changed.</p>
                     </div>
                     <div class="btn">
-                        <p>text</p>
+                        <p>Prepare for a visit -></p>
                     </div>
                 </div>
             </section>
             <section id="fourth-section">
                 <div class="content cta-container">
                     <div id="cta">
-                        <h1>Title</h1>
-                        <p>Passage</p>>
+                        <h1>The right questions can make care feel less overwhelming.</h1>
+                        <p>Explore specialities before your next conversation.</p>
                         <div class="btn">
-                            <p>Explore health topics</p>
+                            <p>Explore providers -></p>
                         </div>
                     </div>
                 </div>
@@ -127,27 +139,29 @@
         </main>
         <footer>
             <header id="foot-header">
-                <div class="logo" href="#">
-                    <img class="pulse-logo" src="images/pulse-logo.png" alt="pulse logo">
-                    <h1>Pulse</h1>
-                </div> 
+                <a href="../homepage/index.html">
+                    <div class="logo">
+                        <img class="pulse-logo" src="../images/pulse-logo.png" alt="pulse logo">
+                        <h1>Pulse</h1>
+                    </div> 
+                </a>
                 <p>Clear health information for everyday decisions</p>
             </header>
             <nav id="foot-nav">
                 <div id="explore">
                     <h5>Explore</h5>
                     <ul>
-                        <a href="#"><li>Medications</li></a>
-                        <a href="#"><li>Health Conditions</li></a>
-                        <a href="#"><li>Doctors & Providers</li></a>
+                        <a href="../medication/index.html"><li>Medications</li></a>
+                        <a href="../conditions/index.html"><li>Health Conditions</li></a>
+                        <a href="../doctors/index.html"><li>Doctors & Providers</li></a>
                     </ul>
                 </div>
                 <div id="learn">
                     <h5>Learn</h5>
                     <ul>
-                        <a href="#"><li>Health Resources</li></a>
-                        <a href="#"><li>Health Guides</li></a>
-                        <a href="#"><li>Appointments & Care</li></a>
+                        <a href="../resources/index.html"><li>Health Resources</li></a>
+                        <a href="../guides/index.html"><li>Health Guides</li></a>
+                        <a href="../appointments/index.html"><li>Appointments & Care</li></a>
                     </ul>
                 </div>
                 <div id="about">
