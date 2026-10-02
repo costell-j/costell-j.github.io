@@ -70,6 +70,10 @@ main h3 {
     display: none;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Header */
 #main-header {
     height: 64px;
@@ -101,6 +105,10 @@ main h3 {
     font-weight: 800;
 }
 
+.icon {
+    height:40px;
+}
+
 /* Navigation */
 #header-nav {
     align-items: center;
@@ -110,7 +118,7 @@ main h3 {
 #header-nav a {
     font-size: 12px;
     font-weight: 700;
-    color: var(--darkblue);
+    color: var(--maintext);
 }
 
 #header-nav a:hover {
@@ -129,8 +137,33 @@ main h3 {
     background: var(--whiteish);
 }
 
-.active {
+#header-nav a.active {
     text-decoration: underline;
+    color:var(--darkblue);
+}
+
+#hamburger:hover {
+    cursor:pointer;
+}
+
+.drop-div {
+    display:flex;
+    height:40px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px var(--borders);
+}
+
+.drop-div:hover {
+    background-color: var(--tealbtns);
+}
+
+.drop-div a {
+    color: var(--maintext);
+}
+
+.drop-div:hover  a{
+    color: var(--white);
 }
 
 /* Hero */
@@ -657,7 +690,7 @@ ul {
 /* Footer */
 footer {
     margin-top: 64px;
-    padding: 48px 20px 24px;
+    padding: 35px 20px 24px;
     background: var(--darkblue);
     color: var(--footertext);
 }
@@ -672,7 +705,7 @@ footer {
 
 #foot-header p {
     max-width: 300px;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.8;
 }
 
@@ -690,7 +723,7 @@ footer {
 
 #foot-nav h5 {
     margin: 0 0 16px;
-    font-size: 12px;
+    font-size: 13px;
     color: white;
 }
 
@@ -701,8 +734,7 @@ footer {
 }
 
 #foot-nav li {
-    margin-bottom: 12px;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 #foot-nav a {
@@ -737,6 +769,10 @@ footer p {
         min-width: 0;
     }
 
+    .hide-big {
+        display: none;
+    }
+
     /* Header */
     #main-header {
         height: 76px;
@@ -745,6 +781,10 @@ footer p {
 
     .hide-small {
         display: flex;
+    }
+
+    #drop-down {
+        display: none;
     }
 
     /* Hero */

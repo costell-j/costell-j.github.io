@@ -6,10 +6,12 @@
     </head>
     <body>
         <header id="main-header">
-            <div class="logo" href="#">
-                <img class="pulse-logo" src="../images/pulse-logo.png" alt="pulse logo">
-                <h1>Pulse</h1>
-            </div> 
+            <a href="#">
+                <div class="logo">
+                    <img class="pulse-logo" src="../images/pulse-logo.png" alt="pulse logo">
+                    <h1>Pulse</h1>
+                </div> 
+            </a>
             <nav id="header-nav" class="hide-small">
                 <a href="../medication/index.html">Medications</a>
                 <a href="../conditions/index.html">Health Conditions</a>
@@ -26,11 +28,32 @@
                     </form>
                 </search>
             </div>
+            <img src="../images/icon-menu.png" alt="hamburger" id="hamburger" class="hide-big icon">
         </header>
+        <nav id="drop-down" class="hidden">
+            <div class="drop-div">
+                <a href="../medication/index.html">Medications</a>
+            </div>
+            <div class="drop-div">
+                <a href="../conditions/index.html">Health Conditions</a>
+            </div>
+            <div class="drop-div">
+                <a href="../doctors/index.html">Doctors & Providers</a>
+            </div>
+            <div class="drop-div">
+                <a href="../appointments/index.html">Appointments & Care</a>
+            </div>
+            <div class="drop-div">
+                <a href="../resources/index.html">Health Resources</a>
+            </div>
+            <div class="drop-div">
+                <a href="../guides/index.html">Guides</a>
+            </div>
+        </nav>
         <main>
             <section id="first-sec" class="column">
                 <div class="content one hero-text">
-                    <h3>Health information made simple</h3>
+                    <h3 class="mini-head">Health information made simple</h3>
                     <h1>Clear answers for every <br>health question.</h1>
                     <p>Explore relatable, easy-to-understand information about medications, health conditions, providers, and everyday care -- all in one calm place</p>
                     <div class="search-container">
@@ -83,10 +106,10 @@
             <section id="second-sec">
                 <header id="second-sec-head">
                     <div>
-                        <h3>Start exploring</h3>
+                        <h3 class="mini-head">Start exploring</h3>
                         <h1>Your guide to everyday health</h1>
                     </div>
-                    <a href="#">View all topics</a>
+                    <a href="../guides/index.html">View all topics</a>
                 </header>
                 <div class="content guide-container">
                     <div class="guide">
@@ -116,34 +139,34 @@
                     <div class="guide">
                         <img src="../images/background-prescriptions.png">
                         <div>
-                            <h3>featured guides</h3>
+                            <h4 class="mini-head">featured guides</h4>
                         </div>
                         <h2>How to read a prescription label</h2>
                         <p>A simple breakdown of the information on hour medicationn label -- and why it matters</p>
-                        <a href="#">Read the guide</a>
+                        <a href="../guides/index.html">Read the guide</a>
                     </div>
                 </div>
                 <div class="content feautred-text one">
-                    <h3>Health information that meets you where you are</h3>
+                    <h3 class="mini-head">Health information that meets you where you are</h3>
                     <h1>Less jargon.</h1>
                     <h1>More confidence</h1>
                     <h3 class="featured-description">From learning what a new medication does to preparing questions for a provider, Pulse helps you arrive at your next step feeling informed</h3>
                     <hr>
-                    <a href="#">
+                    <a href="../guides/index.html">
                         <div class="link">
                             <p>Medication safety basics</p>
                             <p>-></p>
                         </div>
                     </a>
                     <hr>
-                    <a href="#">
+                    <a href="../guides/index.html">
                         <div class="link">
                             <p>When should you see a doctor?</p>
                             <p>-></p>
                         </div>
                     </a>
                     <hr>
-                    <a href="#">
+                    <a href="../guides/index.html">
                         <div class="link">
                             <p>Preparing for a health appointment</p>
                             <p>-></p>
@@ -153,7 +176,7 @@
             </section>
             <section id="fourth-section">
                 <div class="text">
-                    <h3>Explore the latest</h3>
+                    <h3 class="mini-head">Explore the latest</h3>
                     <h1>Helpful guides for real life</h1>
                     <h4>Practical health information to help you ask better questions and make sense of what you find.</h4>
                 </div>
@@ -161,22 +184,22 @@
                     <div class="guide">
                         <h4>Preventative care</h4>
                         <p>Understand blood pressure: the numbers, explained</p>
-                        <a href="#">Read guide</a>
+                        <a href="../guides/index.html">Read guide</a>
                     </div>
                     <div class="guide">
                         <h4>Medication safety</h4>
                         <p>Find questions to ask before starting a new prescription</p>
-                        <a href="#">Read guid</a>
+                        <a href="../guides/index.html">Read guid</a>
                     </div>
                     <div class="guide">
                         <h4>Prepare for care</h4>
                         <p>What to bring to a doctor's appointment</p>
-                        <a href="#">Read guide</a>
+                        <a href="../guides/index.html">Read guide</a>
                     </div>
                 </div>
                 <div class="content cta-container">
                     <div id="keep-exploring">
-                        <h3>Keep Exploring</h3>
+                        <h3 class="mini-head">Keep Exploring</h3>
                         <h4 id="k-exp-first">Health information should feel easier to find</h4>
                         <h4>Browse trusted starting points for your questions, whenever you need them</h4>
                         <div class="btn">
@@ -189,7 +212,7 @@
         </main>
         <footer>
             <header id="foot-header">
-                <div class="logo" href="#">
+                <div class="logo" href="../homepage/index.html">
                     <img class="pulse-logo" src="../images/pulse-logo.png" alt="pulse logo">
                     <h1>Pulse</h1>
                 </div>
@@ -199,17 +222,17 @@
                 <div id="explore">
                     <h5>Explore</h5>
                     <ul>
-                        <a href="#"><li>Medications</li></a>
-                        <a href="#"><li>Health Conditions</li></a>
+                        <a href="../medication/index.html"><li>Medications</li></a>
+                        <a href="../conditions/index.html"><li>Health Conditions</li></a>
                         <a href="#"><li>Doctors & Providers</li></a>
                     </ul>
                 </div>
                 <div id="learn">
                     <h5>Learn</h5>
                     <ul>
-                        <a href="#"><li>Health Resources</li></a>
-                        <a href="#"><li>Health Guides</li></a>
-                        <a href="#"><li>Appointments & Care</li></a>
+                        <a href="../resources/index.html"><li>Health Resources</li></a>
+                        <a href="../guides/index.html"><li>Health Guides</li></a>
+                        <a href="../appointments/index.html"><li>Appointments & Care</li></a>
                     </ul>
                 </div>
                 <div id="about">
@@ -226,5 +249,5 @@
             <p>&copy 2026 Pulse Health Information</p>
         </footer>
     </body>
-    <script></script>
+    <script src="../scripts.js"></script>
 </html>
