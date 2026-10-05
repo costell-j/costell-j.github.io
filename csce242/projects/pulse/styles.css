@@ -593,6 +593,36 @@ ul {
     color: var(--maintext);
 }
 
+/* FAQ */
+#faq {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 64px;
+    padding: 45px 24px;
+    border-radius: 20px;
+    background: var(--ctamint);
+    text-align: center;
+}
+
+#faq-question-container {
+    text-align: center;
+    padding: 0 15px;
+
+}
+
+.arrow {
+    font-size: 30px;
+    color:var(--darkblue)
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
 /* Latest Guides */
 #fourth-section .guide {
     display: flex;
