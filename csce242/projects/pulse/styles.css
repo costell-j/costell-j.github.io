@@ -90,6 +90,17 @@ main h3 {
     background-color: var(--lightlavender);
 }
 
+.darkblue {
+    background-color: var(--darkblue);
+}
+
+.circle-img {
+    border-radius: 50%;
+    height:35px;
+    width: 35px;
+    padding: 5px;
+}
+
 a .btn {
     display: contents;
     text-decoration: none;
