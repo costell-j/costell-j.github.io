@@ -119,10 +119,13 @@ main h3 {
     font-size: 12px;
     font-weight: 700;
     color: var(--maintext);
+    transition-duration: 0.5s;
 }
 
 #header-nav a:hover {
     color: var(--tealbtns);
+    font-size: 20px;
+    transition-duration: 0.5s;
 }
 
 #nav-search {
@@ -616,7 +619,8 @@ ul {
 
 .arrow {
     font-size: 30px;
-    color:var(--darkblue)
+    color:var(--darkblue);
+    transition-duration: 0.5s;
 }
 
 .arrow:hover {
