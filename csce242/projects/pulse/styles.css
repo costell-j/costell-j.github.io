@@ -621,6 +621,9 @@ ul {
 
 .arrow:hover {
     cursor: pointer;
+    color:var(--tealbtns);
+    font-size: 45px;
+    transition-duration: 0.5s;
 }
 
 /* Latest Guides */
