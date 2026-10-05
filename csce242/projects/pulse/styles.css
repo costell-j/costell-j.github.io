@@ -154,17 +154,24 @@ main h3 {
     border-bottom: solid 1px var(--borders);
 }
 
+#drop-down a {
+    color: var(--maintext);
+}
+
+#drop-down .active {
+    background-color: var(--tealhover);
+    color: var(--white)
+}
+
+.drop-div:hover {
+    color: var(--white);
+    font-weight: bolder;
+}
+
 .drop-div:hover {
     background-color: var(--tealbtns);
 }
 
-.drop-div a {
-    color: var(--maintext);
-}
-
-.drop-div:hover  a{
-    color: var(--white);
-}
 
 /* Hero */
 #first-sec {
@@ -375,17 +382,6 @@ main h3 {
     border-radius: 14px;
 }
 
-.logo-img {
-    display: block;
-    width: 48px;
-    height: 48px;
-    margin-bottom: 22px;
-    padding: 10px;
-    border-radius: 12px;
-    background: var(--light-teal);
-    object-fit: contain;
-}
-
 #second-sec .guide h3 {
     margin-bottom: 10px;
     font-size: larger;
@@ -396,7 +392,7 @@ main h3 {
 
 #second-sec .guide p {
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.8;
     color: var(--maintext);
 }
@@ -435,12 +431,11 @@ ul {
 
 .logo-img {
     display: block;
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     margin-bottom: 22px;
     padding: 10px;
     border-radius: 12px;
-    background: var(--light-teal);
     object-fit: contain;
 }
 
@@ -453,8 +448,7 @@ ul {
 }
 
 #third-sec .guide p {
-    margin: 0;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.8;
     color: var(--maintext);
 }
@@ -497,6 +491,7 @@ ul {
     height: 200px;
     background: var(--light-teal);
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .featured-card .guide {
@@ -730,6 +725,7 @@ footer {
 #foot-nav ul {
     margin: 0;
     padding: 0;
+    line-height:30px;
     list-style: none;
 }
 
@@ -883,7 +879,7 @@ footer p {
 
     .featured-card {
         flex: 1;
-        max-width: 500px;
+        max-width: 75%;
     }
 
     .featured-text {
@@ -892,19 +888,17 @@ footer p {
     }
 
     .featured-card img {
+        max-width: 85%;
         height: 250px;
+        max-height: auto;
+        border-radius: 15px;
+        margin:auto;
     }
 
     .featured-text h1 {
         font-size: 42px;
     }
 
-    #third-sec img {
-        max-width: 85%;
-        max-height: auto;
-        border-radius: 10%;
-        margin:auto;
-    }
 
     /* Fourth Section */
     #fourth-section {
