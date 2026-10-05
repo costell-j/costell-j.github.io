@@ -19,6 +19,7 @@ class FAQ {
 
 const faqQuestion = document.getElementById("faq-question");
 const faqAnswer = document.getElementById("faq-answer");
+const faqTitle = document.getElementById("faq-title");
 const backArrow = document.getElementById("back-arrow");
 const frontArrow = document.getElementById("front-arrow");
 let currentFAQ = 0;
@@ -50,6 +51,7 @@ faqs.push(new FAQ(
 ));
 
 const displayFAQ = () => {
+    faqTitle.textContent = `FAQs (${currentFAQ + 1} of ${faqs.length})`
     faqQuestion.textContent = faqs[currentFAQ].getQuestion();
     faqAnswer.textContent = faqs[currentFAQ].getAnswer();
 }
