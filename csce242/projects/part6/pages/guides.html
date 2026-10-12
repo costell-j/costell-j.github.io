@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pulse Health Guides</title>
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body>
+        <header id="main-header">
+            <a href="index.html">
+                <div class="logo">
+                    <img class="pulse-logo" src="../images/pulse-logo.png" alt="pulse logo">
+                    <h1>Pulse</h1>
+                </div> 
+            </a>
+            <nav id="header-nav" class="hide-small">
+                <a href="medication.html">Medications</a>
+                <a href="conditions.html">Health Conditions</a>
+                <a href="doctors.html">Doctors & Providers</a>
+                <a href="appointments.html">Appointments & Care</a>
+                <a href="resources.html">Health Resources</a>
+                <a href="guides.html" class="active">Guides</a>
+            </nav>
+            <div class="search-container hide-small" id="nav-search"> 
+                <search>
+                    <form class="search-from">
+                        <input type="search" class="search-input"
+                        placeholder="Search topics" required>
+                    </form>
+                </search>
+            </div>
+            <img src="../images/icon-menu.png" alt="hamburger" id="hamburger" class="hide-big icon">
+        </header>
+        <nav id="drop-down" class="hidden">
+            <a href="medication.html">
+                <div class="drop-div">
+                    Medications
+                </div>
+            </a>
+            <a href="conditions.html">
+                <div class="drop-div">
+                    Health Conditions
+                </div>
+            </a>
+            <a href="doctors.html">
+                <div class="drop-div">
+                    Doctors & Providers
+                </div>
+            </a>
+            <a href="appointments.html">
+                <div class="drop-div">
+                    Appointments & Care
+                </div>
+            </a>
+            <a href="resources.html">
+                <div class="drop-div">
+                    Health Resources
+                </div>
+            </a>
+            <a href="guides.html">
+                <div class="drop-div active">
+                    Guides
+                </div>
+            </a>
+        </nav>
+        <main>
+            <section id="first-sec" class="column">
+                <div class="content one hero-text">
+                    <h3 class="mini-head">Health guides</h3>
+                    <h1>Helpful guides for real life.</h1>
+                    <p>Explore clear, practical articles that make health topics easier to understand -- from preparing for a visit to reading a prescription label.</p>
+                    <div class="search-container">
+                        <search>
+                            <form class="search-form">
+                                <img src="../images/icon-search.png" id="search-icon">
+                                <input type="search" class="search-input"
+                                placeholder="Search health guides and articles"
+                                required>
+                                <button type="submit" class="search-btn">Explore</button>
+                            </form>
+                        </search>
+                    </div>
+                </div>
+            </section>
+            <section id="second-sec">
+                <div class="content guide-container">
+                    <div class="guide lightteal">
+                        <h2 class="mini-head">Featured guide</h2>
+                        <h1>Understanding blood pressure:<br>The numbers explained</h1>
+                        <p>A calm introduction to a common health measurement and the questions it can raise</p>
+                    </div>
+                </div>
+            </section>
+            <section id="third-sec">
+                <header id="third-sec-header">
+                    <h1>Explore guides by topic</h1>
+                    <p>Find practical answers for the everyday questions that come up during appointments.</p>
+                </header>
+                <div id="guide-list" class="content guide-container"></div>
+            </section>
+            <section id="fourth-section">
+                <div class="content cta-container">
+                    <div id="cta">
+                        <h1>Clear information can be the first helpful step.</h1>
+                        <p>Use these guides to build confidence before your next health decision.</p>
+                        <div class="btn">
+                            <p>Browse guides -></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <header id="foot-header">
+                <div class="logo" href="index.html">
+                    <img class="pulse-logo" src="../images/pulse-logo.png" alt="pulse logo">
+                    <h1>Pulse</h1>
+                </div>
+                <p>Clear health information for everyday decisions</p>
+            </header>
+            <nav id="foot-nav">
+                <div id="explore">
+                    <h5>Explore</h5>
+                    <ul>
+                        <a href="medication.html"><li>Medications</li></a>
+                        <a href="conditions.html"><li>Health Conditions</li></a>
+                        <a href="doctors.html"><li>Doctors & Providers</li></a>
+                    </ul>
+                </div>
+                <div id="learn">
+                    <h5>Learn</h5>
+                    <ul>
+                        <a href="resources.html"><li>Health Resources</li></a>
+                        <a href="guides.html"><li>Health Guides</li></a>
+                        <a href="appointments.html"><li>Appointments & Care</li></a>
+                    </ul>
+                </div>
+                <div id="about">
+                    <h5>About</h5>
+                    <ul>
+                        <a href="#"><li>About Pulse</li></a>
+                        <a href="#" id="contact-open"><li>Contact</li></a>
+                        <a href="#"><li>Privacy</li></a>
+                    </ul>
+                </div>
+            </nav>
+            <hr>
+            <p>Pulse provides general educational information only. It is not a subsitute for professional medical advice, diagnosis, or treatment</p>
+            <p>&copy 2026 Pulse Health Information</p>
+        </footer>
+        <dialog id="contact-modal">
+            <button id="contact-close" type="button" class="btn">Close</button>
+            <h2>Contact Pulse</h2>
+            <p class="contact-description">
+                Have a question about Pulse or feedback about the site?
+                Send a message below.
+            </p>
+            
+            <p class="contact-note">
+                Please don't include private medical information.
+            </p>
+            <form id="contact-form" action="" method="POST">
+                <p>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" required>
+                </p>
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </p>
+                <p><button type="submit" class="btn" id="contact-submit">Submit</button></p>
+                <p id="result"></p>
+            </form>
+        </dialog>
+        <script src="../scripts/contact.js"></script>
+        <script src="../scripts/scripts.js"></script>
+    </body>
+</html>
