@@ -42,27 +42,34 @@ img {
     
 }
 
-#assignments {
+#assignments, #projects {
     display: flex;
     flex-direction: column;
     overflow:scroll;
 }
 
 #projects {
-    display: flex;
-    flex-direction: row;
     margin:auto;
     align-items: center;
     justify-content: center;
 }
 
 .project {
-    max-width: 300px;
+    min-height: 300px;
+    min-width: 300px;
     background-color: #7D8570;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
     text-align: center;
+}
+
+.project a {
+    text-decoration: underline;
+}
+
+.project h3 {
+    color:#DDE392;
 }
 
 /*Navigation*/
@@ -80,7 +87,8 @@ a {
     .column {
         display: flex;
     }
-    #assignments {
+
+    #assignments, #projects {
         flex-direction: row;
     }
 
